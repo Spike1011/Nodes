@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/artem/Projects/Notes.Backend/Nodes.WebApi/Nodes.WebApi.csproj": {}
+  },
+  "projects": {
+    "/Users/artem/Projects/Notes.Backend/Nodes.WebApi/Nodes.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/artem/Projects/Notes.Backend/Nodes.WebApi/Nodes.WebApi.csproj",
+        "projectName": "Nodes.WebApi",
+        "projectPath": "/Users/artem/Projects/Notes.Backend/Nodes.WebApi/Nodes.WebApi.csproj",
+        "packagesPath": "/Users/artem/.nuget/packages/",
+        "outputPath": "/Users/artem/Projects/Notes.Backend/Nodes.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/artem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/artem/Projects/Notes.Backend/Notes.Application/Notes.Application.csproj": {
+                "projectPath": "/Users/artem/Projects/Notes.Backend/Notes.Application/Notes.Application.csproj"
+              },
+              "/Users/artem/Projects/Notes.Backend/Notes.Persistence/Notes.Persistence.csproj": {
+                "projectPath": "/Users/artem/Projects/Notes.Backend/Notes.Persistence/Notes.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/artem/Projects/Notes.Backend/Notes.Application/Notes.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/artem/Projects/Notes.Backend/Notes.Application/Notes.Application.csproj",
+        "projectName": "Notes.Application",
+        "projectPath": "/Users/artem/Projects/Notes.Backend/Notes.Application/Notes.Application.csproj",
+        "packagesPath": "/Users/artem/.nuget/packages/",
+        "outputPath": "/Users/artem/Projects/Notes.Backend/Notes.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/artem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/artem/Projects/Notes.Backend/Notes.Domain/Notes.Domain.csproj": {
+                "projectPath": "/Users/artem/Projects/Notes.Backend/Notes.Domain/Notes.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/artem/Projects/Notes.Backend/Notes.Domain/Notes.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/artem/Projects/Notes.Backend/Notes.Domain/Notes.Domain.csproj",
+        "projectName": "Notes.Domain",
+        "projectPath": "/Users/artem/Projects/Notes.Backend/Notes.Domain/Notes.Domain.csproj",
+        "packagesPath": "/Users/artem/.nuget/packages/",
+        "outputPath": "/Users/artem/Projects/Notes.Backend/Notes.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/artem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/artem/Projects/Notes.Backend/Notes.Persistence/Notes.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/artem/Projects/Notes.Backend/Notes.Persistence/Notes.Persistence.csproj",
+        "projectName": "Notes.Persistence",
+        "projectPath": "/Users/artem/Projects/Notes.Backend/Notes.Persistence/Notes.Persistence.csproj",
+        "packagesPath": "/Users/artem/.nuget/packages/",
+        "outputPath": "/Users/artem/Projects/Notes.Backend/Notes.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/artem/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/artem/Projects/Notes.Backend/Notes.Application/Notes.Application.csproj": {
+                "projectPath": "/Users/artem/Projects/Notes.Backend/Notes.Application/Notes.Application.csproj"
+              },
+              "/Users/artem/Projects/Notes.Backend/Notes.Domain/Notes.Domain.csproj": {
+                "projectPath": "/Users/artem/Projects/Notes.Backend/Notes.Domain/Notes.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
