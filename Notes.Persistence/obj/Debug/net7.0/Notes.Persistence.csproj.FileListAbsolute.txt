@@ -1,0 +1,17 @@
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/bin/Debug/net7.0/Notes.Persistence.deps.json
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/bin/Debug/net7.0/Notes.Persistence.dll
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/bin/Debug/net7.0/Notes.Persistence.pdb
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/bin/Debug/net7.0/Notes.Application.dll
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/bin/Debug/net7.0/Notes.Domain.dll
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/bin/Debug/net7.0/Notes.Domain.pdb
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/bin/Debug/net7.0/Notes.Application.pdb
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/obj/Debug/net7.0/Notes.Persistence.csproj.AssemblyReference.cache
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/obj/Debug/net7.0/Notes.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/obj/Debug/net7.0/Notes.Persistence.AssemblyInfoInputs.cache
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/obj/Debug/net7.0/Notes.Persistence.AssemblyInfo.cs
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/obj/Debug/net7.0/Notes.Persistence.csproj.CoreCompileInputs.cache
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/obj/Debug/net7.0/Notes.Persistence.csproj.CopyComplete
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/obj/Debug/net7.0/Notes.Persistence.dll
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/obj/Debug/net7.0/refint/Notes.Persistence.dll
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/obj/Debug/net7.0/Notes.Persistence.pdb
+/Users/artem/Projects/Notes.Backend/Notes.Persistence/obj/Debug/net7.0/ref/Notes.Persistence.dll
