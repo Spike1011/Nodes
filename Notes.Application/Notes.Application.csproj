@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Interfaces\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Common\" />
+    <None Remove="Common\Mappings\" />
+    <None Remove="AutoMapper" />
+    <None Remove="MediatR" />
+    <None Remove="Notes\" />
+    <None Remove="Notes\Commands\" />
+    <None Remove="Notes\Commands\CreateNote\" />
+    <None Remove="Notes\Commands\UpdateNote\" />
+    <None Remove="Common\Exception\" />
+    <None Remove="Notes\Commands\DeleteCommand\" />
+    <None Remove="Notes\Queries\" />
+    <None Remove="Notes\Queries\GetNoteDetails\" />
+    <None Remove="Notes\Queries\GetNoteList\" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="FluentValidation" />
+    <None Remove="FluentValidation.DependencyInjectionExtensions" />
+    <None Remove="Common\Behaviors\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Common\" />
+    <Folder Include="Common\Mappings\" />
+    <Folder Include="Notes\" />
+    <Folder Include="Notes\Commands\" />
+    <Folder Include="Notes\Commands\CreateNote\" />
+    <Folder Include="Notes\Commands\UpdateNote\" />
+    <Folder Include="Common\Exception\" />
+    <Folder Include="Notes\Commands\DeleteCommand\" />
+    <Folder Include="Notes\Queries\" />
+    <Folder Include="Notes\Queries\GetNoteDetails\" />
+    <Folder Include="Notes\Queries\GetNoteList\" />
+    <Folder Include="Common\Behaviors\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.4.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Notes.Domain\Notes.Domain.csproj" />
+  </ItemGroup>
+</Project>

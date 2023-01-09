@@ -1,0 +1,12 @@
+/Users/artem/Projects/Notes.Backend/Notes.Domain/bin/Debug/net7.0/Notes.Domain.deps.json
+/Users/artem/Projects/Notes.Backend/Notes.Domain/bin/Debug/net7.0/Notes.Domain.dll
+/Users/artem/Projects/Notes.Backend/Notes.Domain/bin/Debug/net7.0/Notes.Domain.pdb
+/Users/artem/Projects/Notes.Backend/Notes.Domain/obj/Debug/net7.0/Notes.Domain.csproj.AssemblyReference.cache
+/Users/artem/Projects/Notes.Backend/Notes.Domain/obj/Debug/net7.0/Notes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/artem/Projects/Notes.Backend/Notes.Domain/obj/Debug/net7.0/Notes.Domain.AssemblyInfoInputs.cache
+/Users/artem/Projects/Notes.Backend/Notes.Domain/obj/Debug/net7.0/Notes.Domain.AssemblyInfo.cs
+/Users/artem/Projects/Notes.Backend/Notes.Domain/obj/Debug/net7.0/Notes.Domain.csproj.CoreCompileInputs.cache
+/Users/artem/Projects/Notes.Backend/Notes.Domain/obj/Debug/net7.0/Notes.Domain.dll
+/Users/artem/Projects/Notes.Backend/Notes.Domain/obj/Debug/net7.0/refint/Notes.Domain.dll
+/Users/artem/Projects/Notes.Backend/Notes.Domain/obj/Debug/net7.0/Notes.Domain.pdb
+/Users/artem/Projects/Notes.Backend/Notes.Domain/obj/Debug/net7.0/ref/Notes.Domain.dll
